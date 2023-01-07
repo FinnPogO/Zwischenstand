@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception { 
+
+
+
+
+
+        
        
         Mensch m1 = new Kunde("Carsten", "Meier", 98, true, 0);
         Mensch m2 = new Mitarbeiter("Scharlatanius", "Trump", 56, true, 2736, 23.5);
@@ -17,7 +23,7 @@ public class App {
         menschen.add(m4);
     
 
-
+        
        
         ArrayList<Einbruch> einbrechen = new ArrayList<>();
 
@@ -32,7 +38,8 @@ public class App {
         System.out.println(einbrechen.get(3));
 
 
-
+        
+        
         
         
 
