@@ -21,7 +21,8 @@ public class App {
         menschen.add(m2);
         menschen.add(m3);
         menschen.add(m4);
-    
+
+
 
         
        
@@ -37,13 +38,17 @@ public class App {
         System.out.println(einbrechen.get(2));
         System.out.println(einbrechen.get(3));
 
+    
+
 
         
         
         
-        
+        for(int i = 0; i < 1; i++){
+            System.out.println(" Einbrecher muss ins gefänfgnis");
+        }
 
-            
+    
        
         for (Mensch mensch : menschen) {
            mensch.showInfo();
